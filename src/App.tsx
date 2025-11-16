@@ -1,8 +1,9 @@
 import React from 'react'
 const App = () => {
+  const message = 'hello'
   return (
     <div>
-      <header>JOB BOARD MFE2</header>
+      <header>JOB BOARD MFE2{message}a</header>
     </div>
   )
 }
