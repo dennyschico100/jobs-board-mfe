@@ -8,7 +8,8 @@ module.exports = {
     devtool: "source-map",
     devServer: {
         port: 3001,
-        hot: true,              // HMR: hot module replacement
+        hot: false,              // HMR: hot module replacement
+        liveReload: true,
         open: true,             // abre el navegador automáticamente
         historyApiFallback: true,
         static: {
