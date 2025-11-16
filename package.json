@@ -9,7 +9,8 @@
     "serve": "npm run build && serve dist -p 5000",
     "lint": "eslint src --ext .ts,.tsx,.js,.jsx",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
@@ -66,9 +67,9 @@
     "webpack-merge": "^6.0.1"
   },
   "lint-staged": {
-    "*.{ts,tsx,js,jsx}": [
-      "eslint --fix",
-      "prettier --write"
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
     ]
   }
 }
