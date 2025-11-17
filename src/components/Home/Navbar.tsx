@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Navbar.css'
+import './navbar.css'
 import { IconMenu2, IconX } from '@tabler/icons-react'
 import { Heading } from '@chakra-ui/react'
 

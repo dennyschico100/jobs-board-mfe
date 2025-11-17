@@ -7,6 +7,8 @@ export const system = createSystem(
       tokens: {
         colors: {
           brand: {
+            primary: { value: '#fb246a' },
+            secondary: { value: '#000035' },
             500: { value: '#0088cc' }, // color principal
             600: { value: 'rgba(68, 184, 0, 1)' }, // hover
           },
