@@ -7,9 +7,9 @@ const Navbar = () => {
   const [isClicked, setIsClicked] = useState(true)
   return (
     <div>
-      <nav>
+      <nav id="navbar-dark-menu">
         <Heading color={'#fff'}>JOB FINDER</Heading>
-        <ul id="navbar" className={isClicked ? 'active' : ''}>
+        <ul id="navbar-dark" className={isClicked ? 'active' : ''}>
           <li>
             <a className="active" href="">
               Home
@@ -28,9 +28,9 @@ const Navbar = () => {
             <a href="">Register</a>
           </li>
         </ul>
-        <div id="mobile-menu">
+        <div id="navbar-mobile-menu">
           <span
-            className="icon-container"
+            className="navbar-icon-container"
             onClick={() => {
               setIsClicked(prevState => !prevState)
             }}

@@ -6,10 +6,10 @@ import { Heading, Button } from '@chakra-ui/react'
 const Header = () => {
   const [isClicked, setIsClicked] = useState(true)
   return (
-    <div id="nav-wrapper">
-      <nav id="nav">
+    <div id="header-nav-wrapper">
+      <nav id="header-nav">
         <Heading color={'brand.secondary'}>Empleo SV</Heading>
-        <ul id="navbar-ul" className={isClicked ? 'active' : ''}>
+        <ul id="header-navbar-ul" className={isClicked ? 'active' : ''}>
           <li>
             <a className="" href="#">
               Inicio
@@ -40,9 +40,9 @@ const Header = () => {
             </Button>
           </li>
         </ul>
-        <div id="mobile">
+        <div id="header-mobile">
           <span
-            className="icon-container"
+            className="header-icon-container"
             onClick={() => {
               setIsClicked(prevState => !prevState)
             }}
