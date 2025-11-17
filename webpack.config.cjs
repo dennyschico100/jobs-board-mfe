@@ -19,6 +19,9 @@ module.exports = {
   output: {
     publicPath: 'auto',
     clean: true,
+    path: path.resolve(__dirname, 'dist'), // directorio final de build
+    filename: '[name].js',
+    clean: true,
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.jsx', '.js'],
