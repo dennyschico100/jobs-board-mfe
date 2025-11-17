@@ -16,16 +16,16 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="">Blog</a>
+            <a href="#">Blog</a>
           </li>
           <li>
-            <a href="">About </a>
+            <a href="#">About </a>
           </li>
           <li>
-            <a href="">Login</a>
+            <a href="#">Login</a>
           </li>
           <li>
-            <a href="">Register</a>
+            <a href="#">Register</a>
           </li>
         </ul>
         <div id="navbar-mobile-menu">
