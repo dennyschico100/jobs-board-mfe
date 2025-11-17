@@ -10,7 +10,7 @@ module.exports = {
     port: 3001,
     hot: false, // HMR: hot module replacement
     liveReload: true,
-    open: true, // abre el navegador automáticamente
+    open: false, // abre el navegador automáticamente
     historyApiFallback: true,
     static: {
       directory: path.join(__dirname, 'public'),
@@ -22,7 +22,7 @@ module.exports = {
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.jsx', '.js'],
-     alias: {
+    alias: {
       '@': path.resolve(__dirname, 'src'),
     },
   },
